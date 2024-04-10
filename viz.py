@@ -29,7 +29,7 @@ plt.show()
 #correlation matrix
 corr_matrix = df.corr()
 
-#step 2: Feature Engineering
+#step 2: feature Engineering
 #model Selection with cross-validation for a variety of models
 models = {
     'Logistic Regression': LogisticRegression(max_iter=200),
