@@ -30,9 +30,6 @@ plt.show()
 corr_matrix = df.corr()
 
 #step 2: Feature Engineering
-# For the Iris dataset, feature engineering might not be necessary,
-# but if we had domain knowledge that suggested new features, we could create them here.
-
 #model Selection with cross-validation for a variety of models
 models = {
     'Logistic Regression': LogisticRegression(max_iter=200),
