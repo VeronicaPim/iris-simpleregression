@@ -1,4 +1,4 @@
-#importing additional libraries for EDA and visualization
+#importing additional libraries for EDA and viz
 import matplotlib.pyplot as plt
 import seaborn as sns
 
