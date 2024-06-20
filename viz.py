@@ -8,7 +8,6 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
-
 #importing utilities for hyperparameter tuning and model evaluation
 from sklearn.model_selection import GridSearchCV, cross_val_score, cross_val_predict
 from sklearn.metrics import classification_report, confusion_matrix
