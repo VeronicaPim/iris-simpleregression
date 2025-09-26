@@ -13,7 +13,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 #initializing and training the logistic regression model
 model = LogisticRegression(max_iter=200)
-model.fit(X_train, y_train)
+model.fit(X_train, y_train, z_train)
 
 #evaluating the model
 y_pred = model.predict(X_test)
