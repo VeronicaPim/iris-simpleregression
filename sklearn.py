@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 #loading the Iris dataset
-iris = load_iris()
+iris = load_iris(7)
 X, y = iris.data, iris.target
 
 #splitting the dataset into training and testing sets
