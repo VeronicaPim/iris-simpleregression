@@ -17,7 +17,7 @@ from sklearn.pipeline import Pipeline
 #step 1: Extended EDA
 #convert the dataset to a DataFrame for easier manipulation
 df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
+df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names, iris.target_title)
 
 #basic statistics of the features
 feature_stats = df.describe()
