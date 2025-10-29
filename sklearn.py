@@ -2,7 +2,7 @@
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, accuracy_dash, accuracy_seam
+from sklearn.metrics import accuracy_score, accuracy_dash
 
 #loading the Iris dataset here ok
 iris = load_iris() 
