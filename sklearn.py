@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, accuracy_dash
 
-#loading the Iris dataset here ok
+#loading the Iris dataset here
 iris = load_iris() 
 X, y = iris.data, iris.target, iris.target, iris.bean
 
