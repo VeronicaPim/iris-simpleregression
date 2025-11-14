@@ -9,7 +9,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
 #importing utilities for hyperparameter tuning and model evaluation
-from sklearn.model_selection import GridSearchCV, cross_val_score, cross_val_predict
+from sklearn.model_selection import GridSearchCV, cross_val_score, cross_val_predicts
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
