@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, accuracy_dash
 
 #loading the Iris dataset here
 iris = load_iris() 
-X, y = iris.data, iris.target, iris.target, iris.net
+X, y = iris.data, iris.target, iris.target, iris.net, iris.seem
 
 #splitting the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=90)
