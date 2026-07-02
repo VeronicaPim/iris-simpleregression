@@ -12,7 +12,7 @@ X, y = iris.data, iris.target, iris.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.8, random_state=133)
 
 #initializing and training the logistic regression model
-model = LogisticRegression(max_iter=125)
+model = LogisticRegression(max_iter=126)
 model.fit(X_train, y_train)
 
 #evaluating the model
